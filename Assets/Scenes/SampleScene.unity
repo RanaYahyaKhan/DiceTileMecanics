@@ -206,8 +206,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -473,8 +473,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 799556913}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Level1Manager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
@@ -979,7 +979,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 799556913}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Level1Manager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 799556913}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Level1Manager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
@@ -1245,7 +1245,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 799556913}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Level1Manager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
@@ -1378,8 +1378,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -1645,8 +1645,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -1778,8 +1778,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -1828,6 +1828,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517807484}
   m_CullTransparentMesh: 1
+--- !u!1 &535143484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535143486}
+  - component: {fileID: 535143485}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &535143485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535143484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4496f9defa146284cb067fd308cdff89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  briks: []
+  leve1Tiles:
+  - {fileID: 1881843825}
+  - {fileID: 562313356}
+  - {fileID: 1023675633}
+  - {fileID: 1357429502}
+  - {fileID: 1738988326}
+  - {fileID: 627523442}
+  Level2Tiles:
+  - {fileID: 1116627802}
+  - {fileID: 1071087992}
+  - {fileID: 1270009635}
+  - {fileID: 1506052293}
+  - {fileID: 1030232457}
+  - {fileID: 1155927803}
+  - {fileID: 1035922223}
+  - {fileID: 1695707531}
+  - {fileID: 1352530127}
+  - {fileID: 1631113985}
+  - {fileID: 1659322980}
+  - {fileID: 1072777582}
+  buttons:
+  - {fileID: 967449533}
+  - {fileID: 907899689}
+  - {fileID: 38630748}
+  - {fileID: 1919322643}
+  - {fileID: 826224114}
+  - {fileID: 301102817}
+  - {fileID: 517807486}
+  - {fileID: 825967789}
+  - {fileID: 2112100064}
+  - {fileID: 488470175}
+  - {fileID: 934165167}
+  - {fileID: 7985896}
+  sum: 0
+  dicRes: 0
+  levelIndex: 1
+  gameOverText: {fileID: 1546185567}
+--- !u!4 &535143486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535143484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.251009, y: 0.14259219, z: -0.62083757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 799556912}
+  - {fileID: 782731368}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &546701791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,7 +2164,7 @@ GameObject:
   - component: {fileID: 596912425}
   - component: {fileID: 596912424}
   m_Layer: 5
-  m_Name: Level2Panel
+  m_Name: Buttons Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2565,7 +2649,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 782731368}
-  - component: {fileID: 782731369}
   m_Layer: 0
   m_Name: Level 2
   m_TagString: Untagged
@@ -2581,8 +2664,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782731366}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.24, z: 5.11}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.251009, y: 1.0974078, z: 5.730838}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2598,49 +2681,8 @@ Transform:
   - {fileID: 1631113986}
   - {fileID: 1659322981}
   - {fileID: 1072777583}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 535143486}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &782731369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782731366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6bcc3ac2adbfa14380aca8fb0160e66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  briks:
-  - {fileID: 1116627802}
-  - {fileID: 1071087992}
-  - {fileID: 1270009635}
-  - {fileID: 1506052293}
-  - {fileID: 1030232457}
-  - {fileID: 1155927803}
-  - {fileID: 1035922223}
-  - {fileID: 1695707531}
-  - {fileID: 1352530127}
-  - {fileID: 1631113985}
-  - {fileID: 1659322980}
-  - {fileID: 1072777582}
-  buttons:
-  - {fileID: 967449533}
-  - {fileID: 907899689}
-  - {fileID: 38630748}
-  - {fileID: 1919322643}
-  - {fileID: 826224114}
-  - {fileID: 301102817}
-  - {fileID: 517807486}
-  - {fileID: 825967789}
-  - {fileID: 2112100064}
-  - {fileID: 488470175}
-  - {fileID: 934165167}
-  - {fileID: 7985896}
-  sum: 0
-  dicRes: 0
-  gameOverText: {fileID: 1546185567}
 --- !u!1 &799556911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,7 +2692,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 799556912}
-  - component: {fileID: 799556913}
   m_Layer: 0
   m_Name: Level 1
   m_TagString: Untagged
@@ -2666,8 +2707,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799556911}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.24, z: 5.11}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.251009, y: 1.0974078, z: 5.730838}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2677,37 +2718,8 @@ Transform:
   - {fileID: 1357429503}
   - {fileID: 1738988327}
   - {fileID: 627523443}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 535143486}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &799556913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799556911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0dee501a2d4260499dcc8eaf76b9877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  briks:
-  - {fileID: 1881843825}
-  - {fileID: 562313356}
-  - {fileID: 1023675633}
-  - {fileID: 1357429502}
-  - {fileID: 1738988326}
-  - {fileID: 627523442}
-  buttons:
-  - {fileID: 269129548}
-  - {fileID: 174747378}
-  - {fileID: 147348407}
-  - {fileID: 1148420614}
-  - {fileID: 1882137521}
-  - {fileID: 241521328}
-  sum: 0
-  dicRes: -1
-  gameOverText: {fileID: 1546185567}
 --- !u!1 &825967787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2791,8 +2803,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -2924,8 +2936,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -3176,8 +3188,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -3309,8 +3321,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -3534,8 +3546,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -4565,7 +4577,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 799556913}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Level1Manager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
@@ -7475,7 +7487,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 799556913}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Level1Manager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
@@ -7742,8 +7754,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -8009,8 +8021,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782731369}
-        m_TargetAssemblyTypeName: Level2Manager, Assembly-CSharp
+      - m_Target: {fileID: 535143485}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: OnClickBtn
         m_Mode: 3
         m_Arguments:
@@ -8068,7 +8080,6 @@ SceneRoots:
   - {fileID: 906048114}
   - {fileID: 1633347491}
   - {fileID: 1247683388}
-  - {fileID: 799556912}
-  - {fileID: 782731368}
   - {fileID: 606097888}
   - {fileID: 1704564678}
+  - {fileID: 535143486}
